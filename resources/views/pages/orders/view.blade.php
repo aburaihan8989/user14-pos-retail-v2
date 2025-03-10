@@ -52,7 +52,7 @@
                             <div class="col-sm-4">Grand Total</div>
                             <div>: Rp. {{ number_format(($order->total_price), 0, ",", ".") }}</div>
                         </div>
-                        <div class="form-group row">
+                        <div class="form-group row mb-1">
                             <div class="col-sm-4">Total Item</div>
                             <div>: {{ $order->total_item }}</div>
                         </div>
